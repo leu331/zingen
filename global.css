@@ -1,11 +1,16 @@
-* {
-    margin: 0;
-    padding: 0;
+*,
+*::before,
+*::after {
     box-sizing: border-box;
 }
 
-body {
-    font-family: "Inter", sans-serif;
+* {
+    margin: 0;
+    padding: 0;
+    font: inherit;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 :root {
@@ -21,17 +26,64 @@ body {
     --text-color-secondary: #a1a1aa;
     --text-color-primary: #F4F4F5;
 
-    /*fonts desktop*/
-    --dh1: 800/1.2 4rem var(--font-family);
-    --dh2: 800/1.2 3rem var(--font-family);
-    --dh3: 800/1.2 2rem var(--font-family);
-    --dspan: 550/1.0 .75rem var(--font-family);
-    --dparagraph: 400/1.6 1rem var(--font-family);
+    /*fonts*/
+   --ff-sans: "inter", system-ui, sans-serif;
+   --fw-base: 400;
+   --fw-md: 500;
+   --fw-bold: 800;
 
-    /*fonts mobile*/
-    --mh1: 800/1.2 2.5rem var(--font-family);
-    --mh2: 800/1.2 1.5rem var(--font-family);
-    --mh3: 800/1.2 1.25rem var(--font-family);
-    --mspan: 550/1.0 .75rem var(--font-family);
-    --mparagraph: 400/1.6 1rem var(--font-family);
+   --fs-sm: 0.875rem;
+   --fs-base: 1rem;
+   --fs-lg: 1.25rem;
+   --fs-xl: 1.5rem;
+   --fs-2xl: 2.5rem;
+}
+
+html {
+    font-family: var(--ff-sans);
+    font-weight: var(--fw-base);
+    font-size: var(--fs-base);
+    line-height: 1.6;
+    color: var(--text-color-primary);
+}
+
+body {
+    background-color: var(--bg-color);
+}
+
+h1, h2, h3 {
+    line-height: 1.2;
+    color: var(--text-color-primary);
+    line-height: 1.2;
+    font-weight: var(--fw-bold);
+    letter-spacing: -0.04em;
+}
+
+h1 {
+    font-size: var(--fs-2xl);
+}
+
+h2 {
+    font-size: var(--fs-xl);
+}
+
+h3 {
+    font-size: var(--fs-lg);
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul [role="list"] {
+    list-style: none;
+}
+
+@media (width >= 80em) {
+    :root {
+        --fs-lg: 2rem;
+        --fs-xl: 3rem;
+        --fs-2xl: 4rem;
+    }
 }
