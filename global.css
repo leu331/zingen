@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+}
+
+:root {
+    /*colors*/
+    --brand-gradient1: #fc4a1a;
+    --brand-gradient2: #f7b733;
+    --brand-color-primary: #f7b733;
+    --brand-color-secondary: #fc4a1a;
+
+    --bg-color: #09090b;
+    --surface-color: #18181b;
+    --stroke-color: #27272a;
+    --text-color-secondary: #a1a1aa;
+    --text-color-primary: #F4F4F5;
+
+    /*fonts desktop*/
+    --dh1: 800/1.2 4rem var(--font-family);
+    --dh2: 800/1.2 3rem var(--font-family);
+    --dh3: 800/1.2 2rem var(--font-family);
+    --dspan: 550/1.0 .75rem var(--font-family);
+    --dparagraph: 400/1.6 1rem var(--font-family);
+
+    /*fonts mobile*/
+    --mh1: 800/1.2 2.5rem var(--font-family);
+    --mh2: 800/1.2 1.5rem var(--font-family);
+    --mh3: 800/1.2 1.25rem var(--font-family);
+    --mspan: 550/1.0 .75rem var(--font-family);
+    --mparagraph: 400/1.6 1rem var(--font-family);
+}
