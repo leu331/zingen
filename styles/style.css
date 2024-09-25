@@ -1,0 +1,5 @@
+#primary-navigation {
+    color: var(--text-color-secondary);
+    align-items: center;
+    margin-left: auto;
+}
