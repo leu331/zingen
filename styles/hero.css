@@ -1,5 +1,6 @@
 section#hero{
-background: url(../assets/bg-hero.svg) center no-repeat contain ;
+
+
 
     text-align: center;
 
@@ -29,6 +30,9 @@ background: url(../assets/bg-hero.svg) center no-repeat contain ;
 @media (width >= 80em) {
     
     section#hero {
+        background: url(../assets/bg-hero.svg) no-repeat bottom center/contain;
+        padding-bottom: 16rem;
+
         & img#sound-bar {
             width: 25.75rem;
         }
@@ -43,7 +47,11 @@ background: url(../assets/bg-hero.svg) center no-repeat contain ;
             font-size: 2.5rem;
             color: var(--text-color-secondary);
             line-height: 1.4; 
-            margin-top: .5rem;
+            margin-top: 1rem;
+       }
+
+       .buttons {
+        margin-top: 5rem;
        }
 }
 

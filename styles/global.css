@@ -66,6 +66,11 @@ h1, h2, h3 {
     letter-spacing: -0.04em;
 }
 
+img {
+    max-width: 100%;
+    display: block;
+}
+
 h1 {
     font-size: var(--fs-2xl);
 }
