@@ -31,7 +31,7 @@ section#hero{
     
     section#hero {
         background: url(../assets/bg-hero.svg) no-repeat bottom center/contain;
-        padding-bottom: 16rem;
+        padding-bottom: 10rem;
 
         & img#sound-bar {
             width: 25.75rem;

@@ -68,7 +68,7 @@ h1, h2, h3 {
 
 img {
     max-width: 100%;
-    display: block;
+    display: inline-block;
 }
 
 h1 {
