@@ -1,0 +1,10 @@
+section#pricing {
+    & strong {
+        color: var(--brand-color-primary);
+        margin: auto;
+    }
+
+    & .pricing-card {
+        color: aqua;
+    }
+}
