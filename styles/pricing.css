@@ -1,10 +1,117 @@
 section#pricing {
+   
+    
+
+    & .btn {
+        width: 100%;
+    }
+
+    text-align: center;
+    
     & strong {
         color: var(--brand-color-primary);
-        margin: auto;
+        text-align: center;
+    }
+
+    & h2 {
+        font-size: 1.75rem;
+            color: var(--text-color-primary);
+            line-height: 1.2;
+            font-weight: 800;
+            margin-bottom: 2rem;
     }
 
     & .pricing-card {
-        color: aqua;
+        position: relative;
+        text-align: left;
+        background-color: var(--surface-color);
+        padding: 1.5rem;
+        border-radius: 1.5rem;
+        margin-bottom: 2rem;
+
+        & h3 {
+            font-size: 1.4rem;
+            line-height: 1.2;
+            color: var(--text-color-primary);
+        }
+
+        & p {
+            color: var(--text-color-secondary);
+            margin-top: .5rem;
+        }
+
+        & h2 {
+            padding-block: 1.5rem;
+            margin: 0;
+            font-size: 2.2rem;
+        }
+
+        & span#month {
+            color: var(--text-color-secondary);
+            font-size: 1.3rem;
+            font-weight: 400;
+        }
+
+        & span#family {
+            color: var(--text-color-secondary);
+            font-size: .9rem;
+            font-weight: 700;
+        }
+
+        & .alerts {
+
+            position: relative;
+
+            & .line {
+                margin-block: 2rem;
+                border: 1px solid; 
+            }
+
+            & div#img {
+                margin-bottom: 1.5rem;
+                background-image: url(../assets/ok.svg);
+                width: 1.5rem;
+                height: 1.5rem;
+                background-repeat: no-repeat;
+            }
+
+            & span {
+                color: var(--text-color-secondary);
+            }
+
+            & span:nth-child(3) {
+                position: absolute;
+                top: 2rem;
+                left: 2rem;
+            }
+
+            & span:nth-child(5) {
+                position: absolute;
+                top: 5rem;
+                left: 2rem;
+            }
+
+            & span:nth-child(7) {
+                position: absolute;
+                top: 7.8rem;
+                left: 2rem;
+            }
+        }
+
+        & div#premium > span {
+       
+            position: absolute;
+            top: 5;
+            left: 0;
+           
+            background: linear-gradient(
+            90deg, 
+            var(--brand-color-primary) 10% 
+            var(--brand-color-secondary) 50%
+            );
+    
+            border-radius: .5rem;
+              
+        }
     }
 }
