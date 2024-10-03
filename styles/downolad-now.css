@@ -1,0 +1,138 @@
+section#download-now {
+    position: relative;
+
+    & strong {
+        color: var(--brand-color-primary);
+        font-size: 1rem;
+        text-transform: uppercase;
+        letter-spacing: 0.08rem;
+    }
+
+    & h3 {
+        margin-block: .5rem;
+        font-size: 2rem;
+        line-height: 1.2;
+        color: var(--text-color-primary);
+    }
+
+    & p {
+        font-size: 1.2rem;
+        color: var(--text-color-secondary);
+    }
+
+    & img {
+        position: absolute;
+        width: 14.88rem;
+        height: 20rem;
+        bottom: 0;
+        right: -2rem;
+    }
+    & div.card {
+        background-color: var(--surface-color);
+        border-radius: 1.5rem;
+        padding-inline: 1.5rem;
+        padding-block: 4rem 15rem;
+    }
+
+    & .ap-button {
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+        height: 4rem;
+        width: 12rem;
+        position: relative;
+        border: 1px solid white;
+        border-radius: .5rem;
+        background-color: black;
+        padding-inline: .75rem;
+        padding-block: .5rem;
+
+        & div#apple {
+            background-repeat: no-repeat;
+            position: absolute;
+            background-image: url(../assets/icons/apple.svg);
+            width: 2.5rem;
+            height: 2.5rem;
+            top: .9rem;
+            left: 1.3rem;
+            
+        }
+
+        & a {
+            
+            position: absolute;
+            font-size: 1rem;
+            font-weight: 500;
+            letter-spacing: 0.03rem;
+            line-height: 1.0;
+            margin: 0;
+            left: 3.9rem;
+            top: .7rem;
+          
+        }
+
+        & span {
+            position: absolute;
+            font-size: 1.25rem;
+            font-weight: 500;
+            letter-spacing: 0.03rem;
+            line-height: 1.0;
+            margin: 0;
+            top: 1.2rem;
+            left: .1rem;
+            width: 8rem;
+        }
+    }
+
+    & .gl-button {
+        height: 4rem;
+        width: 12rem;
+        position: relative;
+        border: 1px solid white;
+        border-radius: .5rem;
+        background-color: black;
+        padding-inline: .75rem;
+        padding-block: .5rem;
+
+        & div#google {
+            background-repeat: no-repeat;
+            position: absolute;
+            background-image: url(../assets/icons/google.svg);
+            width: 2.5rem;
+            height: 2.5rem;
+            top: .9rem;
+            left: 1.3rem;
+            
+        }
+
+        & a {
+            
+            position: absolute;
+            font-size: 1rem;
+            font-weight: 500;
+            letter-spacing: 0.03rem;
+            line-height: 1.0;
+            margin: 0;
+            left: 3.9rem;
+            top: .7rem;
+          
+        }
+
+        & span {
+            
+            position: absolute;
+            font-size: 1.25rem;
+            font-weight: 500;
+            letter-spacing: 0.03rem;
+            line-height: 1.0;
+            margin: 0;
+            top: 1.2rem;
+            left: .1rem;
+            width: 8rem;
+        }
+
+        & a:hover {
+            background: initial;
+        }
+    }
+   
+}
