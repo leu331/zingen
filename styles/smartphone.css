@@ -1,0 +1,10 @@
+section#smartphone-img {
+    margin-top: 3rem;
+    background: url(../assets/background.svg) top/cover;
+}
+
+@media (width >= 80em) {
+    section#smartphone-img {
+        display: none;
+    }
+}

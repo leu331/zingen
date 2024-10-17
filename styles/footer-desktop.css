@@ -1,0 +1,27 @@
+.footer {
+    padding-block: 2rem 1rem;
+    padding-inline: 2rem;
+    display: flex;
+    gap: 2rem;
+
+    & h3 {
+        margin-right: auto;
+    }
+}
+
+.footer-1 {
+    padding: 0;
+    padding-inline: 2rem;
+}
+
+.end {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+footer {
+    margin: 0;
+    margin-left: auto;
+}

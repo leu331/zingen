@@ -1,4 +1,7 @@
 section#pricing {
+    & .btn {
+        width: 100%;
+    }
     padding-block: 6rem;
 
     & strong {

@@ -1,0 +1,21 @@
+section#features {
+background-color: var(--bg-color);
+
+    & .card {
+        background-color: var(--stroke-color);
+        padding: 1.5rem;
+        border-radius: 1.5rem;
+        margin-bottom: 1.5rem;
+
+        & h3 {
+            margin-top: .5rem;
+            margin-bottom: .5rem;
+            font-size: 1.25rem;
+            font-weight: 800;
+            color: var(--text-color-primary);
+            line-height: 1.2;
+           
+        }
+    }
+}
+

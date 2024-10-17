@@ -1,0 +1,39 @@
+section#download-now {
+
+    & div.card {
+       padding: 0;
+       padding-block: 8.75rem;
+       padding-inline: 5rem;
+        
+        & strong {
+            margin-top: 5rem;
+        }
+
+        & img {
+            position: absolute;
+            width: 32rem;
+            height: 45rem;
+            right: -3rem;
+        }
+
+        & h3 {
+            font-size: 3.5rem;
+        }
+
+        & p {
+            width: 40rem;
+        }
+
+    }
+
+    & .ap-button {
+        margin: 0;
+    }
+}
+
+.buttons {
+    margin-top: 3.5rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}

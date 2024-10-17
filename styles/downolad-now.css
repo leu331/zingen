@@ -70,6 +70,10 @@ section#download-now {
           
         }
 
+        & a:hover {
+            color: inherit;
+        }
+
         & span {
             position: absolute;
             font-size: 1.25rem;
@@ -117,6 +121,8 @@ section#download-now {
           
         }
 
+        
+
         & span {
             
             position: absolute;
@@ -131,7 +137,7 @@ section#download-now {
         }
 
         & a:hover {
-            background: initial;
+            color: inherit;
         }
     }
    

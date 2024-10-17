@@ -1,7 +1,5 @@
 section#features {
 
-    background-color: var(--bg-color);
-
     & .cards {
         grid-template-columns: 17.5rem 1fr 1fr 17.5rem;
         grid-template-rows: 25rem 25rem;
@@ -78,5 +76,4 @@ section#features {
             right: 2rem;
         }
     }
-
 }
